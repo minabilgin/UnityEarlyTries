@@ -1,0 +1,32 @@
+ublic class KarakterKontrol : MonoBehaviour {
+
+	Rigidbody2D rigidbody2D;
+	Animator animator;
+
+
+	// Use this for initialization
+	void Start () {
+		rigidbody2D = GetComponent <Rigidbody2D> ();
+		animator = GetComponent <Animator> ();
+	}
+
+
+
+	// Update is called once per frame
+	void Update () {
+		//Debug.Log (Input.GetButton ("Fire1"));
+
+		// transform.position = new Vector2 (0f , 0f);
+
+		if (Input.GetButton ("Fire1")) {
+			//Debug.Log ("BASILIYOOO");
+			//transform.position = new Vector2 (0f, 1f);
+			rigidbody2D.AddForce (new Vector2 (0f, 15f));
+			animator.SetBool ("Alev", true);
+		} else {
+			animator.SetBool ("Alev", false);
+		}
+
+		animator.SetFloat ("DikeyHiz", rigidbody2D.velocity.y );
+	}
+

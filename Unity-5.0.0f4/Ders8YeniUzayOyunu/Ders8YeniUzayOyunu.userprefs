@@ -1,0 +1,17 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\BizimJoyStick.cs">
+    <Files>
+      <File FileName="Assets\NesneOlustur.cs" Line="23" Column="55" />
+      <File FileName="Assets\AltinAl.cs" Line="1" Column="1" />
+      <File FileName="Assets\PuanGoster.cs" Line="1" Column="1" />
+      <File FileName="Assets\BizimJoyStick.cs" Line="35" Column="42" />
+      <File FileName="Assets\BizimInput.cs" Line="5" Column="23" />
+      <File FileName="Assets\YeniKontrol.cs" Line="26" Column="27" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
